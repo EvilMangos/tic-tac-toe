@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2020", // Set the target to an appropriate ES version
+		"module": "ESNext", // Use ESNext modules for compatibility with `ts-node/esm`
+		"moduleResolution": "node", // Resolve modules in a Node.js environment
+		"esModuleInterop": true, // Enables compatibility for CommonJS modules
+		"strict": true, // Enable strict type-checking options
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true, // Skip type checking of declaration files for faster compilation
+		"sourceMap": true, // Enable source maps for debugging
+		"outDir": "./dist" // Specify the output directory
+	},
+	"include": [
+		"src/**/*.ts" // Adjust to the location of your TypeScript files
+	],
+	"exclude": ["node_modules"]
+}
